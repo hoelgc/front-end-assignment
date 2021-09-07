@@ -1,9 +1,12 @@
 import React from 'react';
+import Title from './components/Title';
+import InputField from './components/InputField';
 
 function App() {
   return (
     <p>
-      Edit <code>src/App.tsx</code> and save to reload.
+      <Title>Search Flow</Title>
+      <InputField></InputField>
     </p>
   );
 }
