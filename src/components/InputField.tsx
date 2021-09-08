@@ -68,7 +68,7 @@ export default function InputField() {
                     //onClick={handleClickSearch}
                     onMouseDown={handleMouseDownPassword}
                     edge="end"
-                    style= {{borderRadius: 0, padding: '1rem', backgroundColor: '#0f4fa8'}}
+                    className={classes.btnChangeColor}
                   >
                   <MagnifyingGlass
                   style={{color: 'white'}}/>
@@ -106,6 +106,11 @@ const useStyles = makeStyles((theme: Theme) =>
       width: '70vw',
       margin: '0 15rem',
       display: 'flex'
+    },
+    btnChangeColor: {
+      borderRadius: 0, 
+      padding: '1rem', 
+      backgroundColor: '#0f4fa8'
     }
   }),
 );
