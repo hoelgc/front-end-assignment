@@ -9,7 +9,7 @@ import Ships from '../server/ships.json'
 
 }*/
 
-export default function fetchData() {
+export default function fetchShips() {
     /*
     const showShips =  document.getElementById('showShips');
     let ships = []
